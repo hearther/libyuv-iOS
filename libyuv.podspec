@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.subspec 'precompiled' do |ss|
 	ss.source_files        = 'include/**/*.h', 'include/*.h'
     ss.public_header_files = 'include/**/*.h', 'include/*.h'
-    ss.header_mappings_dir = 'include',
+    ss.header_mappings_dir = 'include'
     ss.vendored_libraries  = 'build/libyuv.a'
     ss.libraries = 'yuv'
   end

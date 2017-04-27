@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "1638"
   s.summary      = "This fork provides simple way to build iOS version of the library."
   s.homepage     = "https://github.com/yarrcc/libyuv-ios"
-  
+  s.author       = { "heartherlin" => "abc@somewhere" } # Podspec maintainer
   s.license      = { :type => 'BSD3', :file => 'LICENSE' }
   s.requires_arc = false
   
